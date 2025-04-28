@@ -1,0 +1,238 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color:  #f0f3f5;
+}
+
+.icon {
+    display: inline-block;
+    color: rgb(37, 183, 202);
+    height: 20px;
+}
+
+.get {
+    font-weight: 700;
+    color: black;
+    font-family: roboto;
+}
+
+
+.product {
+    margin-left: 20px;
+    margin-right: 14px;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.product:hover{
+    color: #00a2ff;
+    cursor: pointer;
+}
+
+.Re{
+    font-family: roboto;
+    font-weight: 700;
+}
+
+.Re :hover{
+    color: #00a2ff;
+    cursor: pointer;
+}
+
+.pricing {
+    margin-right:20px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.pricing:hover {
+    color: #00a2ff;
+    cursor: pointer;
+}
+
+.Re:hover {
+    color: #00a2ff;
+    cursor: pointer;
+}
+
+.book {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.book:hover {
+    color: #00a2ff;
+    cursor: pointer;
+}
+
+.log-in {
+    height: 40px;
+    width: 68px;
+    border-radius: 12px;
+    border-color: rgb(162, 175, 171);
+    overflow: hidden;
+    border: #a8afb3 2px solid;
+    color: black;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.sign {
+    font-weight: 700;
+    height: 40px;
+    border-radius: 12px;
+    border-color: #00a2ff 2px solid;
+    color: white;
+    background-color: #00a2ff;
+    border: none;
+    width: 110px;
+    font-family: roboto;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.sign:hover {
+    background-color: white;
+    color: #00a2ff;
+    border: #00a2ff 2px solid;
+    cursor: pointer;
+}
+
+.log-in:hover {
+    color: #00a2ff;
+    border: #00a2ff 2px solid;
+    cursor: pointer;
+}
+
+.head-tags {
+    margin-top: 0px;
+}
+
+.all {
+    display: block;
+   font-family: poppins;
+   color: rgba(106, 112, 119, 0.938);
+   font-size:small;
+   margin-top: 2px;
+   font-weight: 900px;   
+}
+
+.second-heads {
+    margin-top: -1.7cm;
+    display: block;
+}
+
+.second-head {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto flex;
+    font-size: 45px;
+    margin-left: 50px;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-bottom: 0px;
+    line-height: 75px;
+}
+
+.third-head {
+    
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    text-wrap: balance;
+    line-height: 20px;
+    margin-top: -1.5cm;
+}
+
+.fourth-head {
+    text-align: center;
+    height: 100px;
+}
+
+.button {
+    background-color: #f8d01f;;
+    border-radius: 24px;
+    font-weight: 600px;
+    padding: 4px 17px;
+    border:#d1d7e0 2px solid;
+    border-width: 1px solid;
+    width: 270px;
+    transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+    height: 60px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+background-color: #00a2ff;
+color: aliceblue;
+border: 4px #e9e8e1;
+cursor: pointer;
+border-width: #413c02 7px solid;
+}
+
+.last {
+    font-family: roboto;
+    font-size: x-small;
+    font-weight: 500;
+    margin-top: -0.5cm;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.icons {
+    display: none;
+}
+
+
+@media (max-width: 800px)  {
+
+    .icons {
+        display: contents;
+        font-size: 30px;
+    }
+    .product {
+        display: none;
+    }
+    .pricing {
+        display: none;
+    }
+    .log-in {
+        display: none;
+    }
+    .Re {
+        display: none;
+    }
+
+    .head-tags {
+        font-size: xx-small;
+    }
+
+    .get {
+        display: none;
+    }
+
+    .book {
+        display: none;
+    }
+
+    .sign {
+        margin-right: 4cm;
+    }
+}

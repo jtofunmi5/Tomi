@@ -1,0 +1,55 @@
+.login-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box h1 {
+    font-size: 25px; 
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 30px;
+}
+
+.login-box input {
+    height: 40px;
+    width: 350px;
+    padding-left: 10px;
+    background-color: rgb(234, 243, 243);
+    border: none;
+}
+
+.login-box div {
+    height: 40px;
+}
+
+.login-box button {
+    width: 363px;
+    height: 50px;
+    color:white; 
+    background-color: green;
+    overflow: hidden;
+    border: none;
+    transition: 0.5s;
+}
+
+.login-box button:hover {
+    background-color:gray;
+}
+
+.login-box button:active {
+    background-color: rgb(203, 247, 11);
+}
+.logo {
+    width: 10%;
+    margin-left: 50px;
+    margin-top: 80px;
+    transition: 2S;
+}
+
+.password  {
+    color: black;
+}
