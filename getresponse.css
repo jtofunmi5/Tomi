@@ -207,7 +207,7 @@ border-width: #413c02 7px solid;
         display: contents;
         font-size: 30px;
     }
-    .product {
+    .product {   
         display: none;
     }
     .pricing {
@@ -234,5 +234,9 @@ border-width: #413c02 7px solid;
 
     .sign {
         margin-right: 4cm;
+    }
+
+    .second-head {
+        font-size: large;
     }
 }
